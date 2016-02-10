@@ -1,0 +1,30 @@
+{
+	"name": "beMyApp-FullStack",
+	"version": "0.0.1",
+	"description": "[WorkInProgress - ProofOfConcept]",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Malory Martin <gueishe@gmail.com>",
+	"bugs": {
+		"url": "https://github.com/gueishe/beMyApp-FullStack/issues"
+	},
+	"homepage": "https://github.com/gueishe/beMyApp-FullStack",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gueishe/beMyApp-FullStack.git"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.12.2",
+		"socket.io": "^1.3.5",
+		"socket.io-client": "^1.3.5",
+		"common-env": "4.*.*",
+		"winston": "1.*.*",
+		"bootstrap": "^3.3.6",
+		"angular": "^1.5.0",
+		"angular-animate": "^1.5.0",
+		"jquery": "^2.2.0",
+		"moment": "^2.11.2"
+	}
+}
