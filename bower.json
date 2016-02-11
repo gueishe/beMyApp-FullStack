@@ -1,0 +1,27 @@
+{
+	"name": "beMyApp-FullStack",
+	"version": "0.0.1",
+	"homepage": "https://github.com/gueishe/beMyApp-FullStack",
+	"authors": [
+    "Malory Martin <gueishe@gmail.com>"
+  ],
+	"description": "[WorkInProgress - ProofOfConcept]",
+	"main": "public/app/app.js",
+	"license": "MIT",
+	"private": true,
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components/",
+    "test",
+    "tests"
+  ],
+	"dependencies": {
+		"angular": "~1.5.0",
+		"angular-animate": "~1.5.0",
+		"bootstrap": "~3.3.2",
+		"jquery": "~2.1.3",
+		"moment": "~2.11.2"
+	}
+}

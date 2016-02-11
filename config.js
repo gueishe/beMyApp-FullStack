@@ -7,7 +7,7 @@ module.exports = function (logger) {
 			token: 'please-define-one'
 		},
 		server: {
-			exposed_endpoint: 'http://127.0.0.1:3000',
+			exposed_endpoint: 'http://192.168.0.27:3000',
 			port: 3000
 		}
 	});
