@@ -2,14 +2,16 @@
 var app = angular.module('beMyApp-FullStack');
 
 app.controller('menuCtrl', ['$scope', function ($scope) {
-	$scope.title = "Habba babba";
-	$scope.text = "Le contenu";
 	$scope.showMe = false;
-	this.psedo = "Pas de psedo";
+	$scope.psedo = "";
 
 	this.newPsedo = function () {
-		if(confirm('Vous voulez utilisez le psedo : ' + this.psedo)) {
-			$scope.showMe = !$scope.showMe;
+		if($scope.psedo == "") {
+			alert("Psedo incorrect");
+		} else {
+			if(confirm('Do you want to use this psedo : ' + $scope.psedo + ' ?')) {
+				$scope.showMe = !$scope.showMe;
+			}
 		}
 	}
-}])
+}]);
